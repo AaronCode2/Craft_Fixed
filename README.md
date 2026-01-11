@@ -25,6 +25,8 @@ in the Craft Folder (not in build or any other folder)
 ```cd build; make -j```
 this -j thingy will use you whole CPU, So be ready for the **FANS to go ballistic mode!**It just takes seconds instead of minutes, but you can remove it!
 
+Most Important: Enjoy :)
+
 :End of Edit by MessyGear
 
 ### Features
