@@ -20,6 +20,8 @@
 #include "util.h"
 #include "world.h"
 
+// It uses a very old API of openGL
+
 #define MAX_CHUNKS 8192
 #define MAX_PLAYERS 128
 #define WORKERS 4
@@ -2364,6 +2366,7 @@ void create_window() {
     int window_width = WINDOW_WIDTH;
     int window_height = WINDOW_HEIGHT;
     GLFWmonitor *monitor = NULL;
+
     if (FULLSCREEN) {
         int mode_count;
         monitor = glfwGetPrimaryMonitor();
