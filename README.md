@@ -12,8 +12,7 @@ Edit by MessyGear:
 
 Make sure you install CURL when using Mingw! (I recommend you to use MSYS Compiler) 
 
-``` pacman -S mingw-w64-ucrt-x86_64-curl
-```
+```pacman -S mingw-w64-ucrt-x86_64-curl```
 
 - Do this in MSYS urct64, you can't copy the command sadly :(, you have type each letter by hand and when gives an option of [Y]/[N], Type **Y**, and you will be fine!
 
