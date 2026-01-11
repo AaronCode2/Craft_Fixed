@@ -6,6 +6,27 @@ http://www.michaelfogleman.com/craft/
 
 ![Screenshot](https://i.imgur.com/SH7wcas.png)
 
+Edit by MessyGear:
+
+### Before Compiling!!!!!!
+
+Make sure you install CURL when using Mingw! (I recommend you to use MSYS Compiler) 
+
+``` pacman -S mingw-w64-ucrt-x86_64-curl
+```
+
+- Do this in MSYS urct64, you can't copy the command sadly :(, you have type each letter by hand and when gives an option of [Y]/[N], Type **Y**, and you will be fine!
+
+### How To Compile!
+
+```cmake ..```
+in the Craft Folder (not in build or any other folder)
+
+```cd build; make -j```
+this -j thingy will use you whole CPU, So be ready for the **FANS to go ballistic mode!**It just takes seconds instead of minutes, but you can remove it!
+
+:End of Edit by MessyGear
+
 ### Features
 
 * Simple but nice looking terrain generation using perlin / simplex noise.
